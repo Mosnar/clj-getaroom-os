@@ -1,0 +1,20 @@
+{
+ :nexmo {
+         :api-key     ""
+         :api-secret  ""
+         :from-number ""
+         }
+ :wit   {
+         :access-token ""
+         :version      "20150806"
+         }
+
+ :http  {
+         :client {
+                  :user-agent "clj-getaroom/0.0.1"
+                  }
+         :server {
+                  :port 8000
+                  }
+         }
+ }
